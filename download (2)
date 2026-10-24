@@ -1,0 +1,18 @@
+# environment
+.env
+.venv/
+venv/
+
+# generated data
+data/chroma/
+data/customers.db
+logs/
+eval/faithfulness.json
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/

@@ -1,0 +1,34 @@
+# Runs the support agent, and optionally the churn-api next to it.
+#
+#   docker compose up --build                     # agent only (churn tool will report "unavailable")
+#   docker compose --profile churn up --build     # agent + churn-api built from ../churn-api
+#
+# Ollama is expected on the host machine (http://host.docker.internal:11434).
+
+services:
+  agent:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ROUTER_MODE: ${ROUTER_MODE:-rules}
+      CHURN_API_URL: http://churn-api:5000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      churn-api:
+        condition: service_started
+        required: false
+
+  churn-api:
+    profiles: ["churn"]
+    build: ../churn-api   # the separate Flask churn model service
+    ports:
+      - "5000:5000"

@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-10-24T15:16:01+00:00",
+  "questions": {
+    "total": 42,
+    "with_expected_sources": 30
+  },
+  "retrieval": {
+    "sentence-transformers": {
+      "hit@1": 0.933,
+      "hit@3": 0.967,
+      "mrr": 0.95,
+      "questions": 30,
+      "avg_query_ms": 13.2,
+      "not_rank_1": [
+        {
+          "id": "q02",
+          "rank": null,
+          "expected": [
+            "mobile_prepaid_plans.md"
+          ],
+          "top1": "billing_and_payments.md"
+        },
+        {
+          "id": "q09",
+          "rank": 2,
+          "expected": [
+            "home_internet_plans.md",
+            "troubleshooting_home_internet.md"
+          ],
+          "top1": "home_addons.md"
+        }
+      ]
+    },
+    "hashing": {
+      "hit@1": 0.833,
+      "hit@3": 0.967,
+      "mrr": 0.901,
+      "questions": 30,
+      "avg_query_ms": 7.9,
+      "not_rank_1": [
+        {
+          "id": "q09",
+          "rank": 3,
+          "expected": [
+            "home_internet_plans.md",
+            "troubleshooting_home_internet.md"
+          ],
+          "top1": "home_addons.md"
+        },
+        {
+          "id": "q12",
+          "rank": 5,
+          "expected": [
+            "roaming.md"
+          ],
+          "top1": "billing_and_payments.md"
+        },
+        {
+          "id": "q18",
+          "rank": 2,
+          "expected": [
+            "complaints_process.md"
+          ],
+          "top1": "billing_and_payments.md"
+        },
+        {
+          "id": "q28",
+          "rank": 2,
+          "expected": [
+            "iot_m2m_business.md"
+          ],
+          "top1": "sim_and_esim.md"
+        },
+        {
+          "id": "q29",
+          "rank": 2,
+          "expected": [
+            "contact_channels.md"
+          ],
+          "top1": "complaints_process.md"
+        }
+      ]
+    }
+  },
+  "routing": {
+    "rules": {
+      "accuracy": 1.0,
+      "per_route_recall": {
+        "knowledge": 1.0,
+        "account": 1.0,
+        "other": 1.0
+      },
+      "confusion": {
+        "account": {
+          "account": 8,
+          "knowledge": 0,
+          "other": 0
+        },
+        "knowledge": {
+          "account": 0,
+          "knowledge": 30,
+          "other": 0
+        },
+        "other": {
+          "account": 0,
+          "knowledge": 0,
+          "other": 4
+        }
+      },
+      "questions": 42,
+      "avg_route_ms": 0.03,
+      "errors": []
+    },
+    "semantic (sentence-transformers)": {
+      "accuracy": 0.929,
+      "per_route_recall": {
+        "knowledge": 0.9,
+        "account": 1.0,
+        "other": 1.0
+      },
+      "confusion": {
+        "account": {
+          "account": 8,
+          "knowledge": 0,
+          "other": 0
+        },
+        "knowledge": {
+          "account": 3,
+          "knowledge": 27,
+          "other": 0
+        },
+        "other": {
+          "account": 0,
+          "knowledge": 0,
+          "other": 4
+        }
+      },
+      "questions": 42,
+      "avg_route_ms": 9.05,
+      "errors": [
+        {
+          "id": "q03",
+          "question": "What happens to my number if I don't recharge my prepaid line for a few months?",
+          "expected": "knowledge",
+          "predicted": "account"
+        },
+        {
+          "id": "q15",
+          "question": "Can I cancel a new contract within the first two weeks without paying anything?",
+          "expected": "knowledge",
+          "predicted": "account"
+        },
+        {
+          "id": "q30",
+          "question": "According to policy, what discount can be given to a month-to-month customer at high risk of leaving?",
+          "expected": "knowledge",
+          "predicted": "account"
+        }
+      ]
+    }
+  },
+  "knowledge_base": {
+    "documents": 17,
+    "chunks": 95,
+    "chunk_size_words": 120,
+    "chunk_overlap_words": 30
+  }
+}

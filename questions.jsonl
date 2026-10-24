@@ -1,0 +1,42 @@
+{"id": "q01", "question": "How much does the Flex 220 bundle cost and what's included?", "route": "knowledge", "sources": ["mobile_prepaid_plans.md"]}
+{"id": "q02", "question": "Does unused data carry over to the next month on prepaid?", "route": "knowledge", "sources": ["mobile_prepaid_plans.md"]}
+{"id": "q03", "question": "What happens to my number if I don't recharge my prepaid line for a few months?", "route": "knowledge", "sources": ["mobile_prepaid_plans.md"]}
+{"id": "q04", "question": "Which postpaid plans include 5G?", "route": "knowledge", "sources": ["mobile_postpaid_plans.md", "network_coverage_5g.md"]}
+{"id": "q05", "question": "Do I need to pay a deposit when I open a new postpaid line?", "route": "knowledge", "sources": ["mobile_postpaid_plans.md", "billing_and_payments.md"]}
+{"id": "q06", "question": "Is there a cheap way to get extra data just for tonight?", "route": "knowledge", "sources": ["data_addons.md"]}
+{"id": "q07", "question": "Can I use my weekly data add-on while travelling in Dubai?", "route": "knowledge", "sources": ["data_addons.md", "roaming.md"]}
+{"id": "q08", "question": "What fiber speeds are available and how much is Fiber 300?", "route": "knowledge", "sources": ["home_internet_plans.md"]}
+{"id": "q09", "question": "My home internet quota is finished, what are my options?", "route": "knowledge", "sources": ["home_internet_plans.md", "troubleshooting_home_internet.md"]}
+{"id": "q10", "question": "How much is the parental control and security service for home internet?", "route": "knowledge", "sources": ["home_addons.md"]}
+{"id": "q11", "question": "How much is a roaming day pass in Saudi Arabia?", "route": "knowledge", "sources": ["roaming.md"]}
+{"id": "q12", "question": "I'm going to Umrah next month, is there a special package?", "route": "knowledge", "sources": ["roaming.md"]}
+{"id": "q13", "question": "How do prepaid customers turn on roaming before travelling?", "route": "knowledge", "sources": ["roaming.md"]}
+{"id": "q14", "question": "What is the early termination fee if I leave a one-year contract after 5 months?", "route": "knowledge", "sources": ["contracts_and_cancellation.md"]}
+{"id": "q15", "question": "Can I cancel a new contract within the first two weeks without paying anything?", "route": "knowledge", "sources": ["contracts_and_cancellation.md"]}
+{"id": "q16", "question": "When is the postpaid bill due and what happens if I pay late?", "route": "knowledge", "sources": ["billing_and_payments.md"]}
+{"id": "q17", "question": "What payment methods do you accept?", "route": "knowledge", "sources": ["billing_and_payments.md"]}
+{"id": "q18", "question": "How long does it take to resolve a billing dispute?", "route": "knowledge", "sources": ["complaints_process.md"]}
+{"id": "q19", "question": "My complaint hasn't been fixed for three weeks, where can I escalate it?", "route": "knowledge", "sources": ["complaints_process.md"]}
+{"id": "q20", "question": "How do I activate an eSIM on my new iPhone?", "route": "knowledge", "sources": ["sim_and_esim.md"]}
+{"id": "q21", "question": "I lost my phone, how do I block my SIM?", "route": "knowledge", "sources": ["sim_and_esim.md"]}
+{"id": "q22", "question": "Is 5G available in Alexandria?", "route": "knowledge", "sources": ["network_coverage_5g.md"]}
+{"id": "q23", "question": "My phone shows full signal but mobile data isn't working, what should I check?", "route": "knowledge", "sources": ["troubleshooting_mobile_data.md"]}
+{"id": "q24", "question": "What APN should I configure for NileTel on Android?", "route": "knowledge", "sources": ["troubleshooting_mobile_data.md"]}
+{"id": "q25", "question": "The LOS light on my fiber router is red, what does that mean?", "route": "knowledge", "sources": ["troubleshooting_home_internet.md"]}
+{"id": "q26", "question": "Will I be charged for a technician visit to fix my router?", "route": "knowledge", "sources": ["troubleshooting_home_internet.md"]}
+{"id": "q27", "question": "How many points do I need to get a bill credit?", "route": "knowledge", "sources": ["loyalty_program.md"]}
+{"id": "q28", "question": "Do you offer SIM cards for smart meters and fleet trackers?", "route": "knowledge", "sources": ["iot_m2m_business.md"]}
+{"id": "q29", "question": "What's the customer care hotline number?", "route": "knowledge", "sources": ["contact_channels.md"]}
+{"id": "q30", "question": "According to policy, what discount can be given to a month-to-month customer at high risk of leaving?", "route": "knowledge", "sources": ["retention_offers.md"]}
+{"id": "q31", "question": "Customer NT-1003 wants to cancel their contract. What can I offer them?", "route": "account", "sources": []}
+{"id": "q32", "question": "Is NT-1012 likely to churn?", "route": "account", "sources": []}
+{"id": "q33", "question": "Pull up the profile for NT-1020 and tell me which services they have.", "route": "account", "sources": []}
+{"id": "q34", "question": "Which retention offer fits customer NT-1001?", "route": "account", "sources": []}
+{"id": "q35", "question": "The customer on the line says they're thinking about switching to another operator. What should I do?", "route": "account", "sources": []}
+{"id": "q36", "question": "Check this customer's churn risk and recommend something to keep them.", "route": "account", "sources": []}
+{"id": "q37", "question": "How long has NT-1031 been with us and what contract are they on?", "route": "account", "sources": []}
+{"id": "q38", "question": "I want to cancel my subscription, I'm moving to a competitor.", "route": "account", "sources": []}
+{"id": "q39", "question": "Hi there!", "route": "other", "sources": []}
+{"id": "q40", "question": "What's the weather in Cairo tomorrow?", "route": "other", "sources": []}
+{"id": "q41", "question": "Write me a short poem about football.", "route": "other", "sources": []}
+{"id": "q42", "question": "Who won the 2010 World Cup?", "route": "other", "sources": []}

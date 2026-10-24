@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telecom-support-agent"
+version = "0.1.0"
+description = "Multi-agent LangGraph support copilot for a fictional telecom operator, with RAG, tool calling and evaluation"
+authors = [{ name = "Basel Abdelbary" }]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+filterwarnings = ["ignore::DeprecationWarning"]
